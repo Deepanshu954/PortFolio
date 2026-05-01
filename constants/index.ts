@@ -4,7 +4,7 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-type Skill = {
+export type Skill = {
   skill_name: string;
   image: string;
   width: number;

@@ -1,7 +1,8 @@
 {
-  "name": "space-portfolio",
+  "name": "deepanshu-portfolio",
   "version": "1.0.1",
   "private": true,
+  "packageManager": "npm@10.8.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,62 +10,33 @@
     "lint": "next lint"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Deepanshu Chauhan",
+    "email": "deepanshu95488@gmail.com",
+    "url": "https://github.com/Deepanshu954"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "Deepanshu Chauhan's portfolio — Full Stack Developer",
   "keywords": [
     "reactjs",
     "nextjs",
     "vercel",
     "react",
-    "space-portfolio",
     "portfolio",
-    "react-icons",
-    "cn",
-    "clsx",
     "3d-portfolio",
-    "3d-website",
-    "sonner",
     "framer-motion",
-    "motion",
-    "animation",
-    "heroicons",
-    "next-themes",
-    "postcss",
-    "prettier",
-    "react-dom",
     "tailwindcss",
-    "tailwindcss-animate",
-    "ui/ux",
-    "js",
-    "javascript",
     "typescript",
-    "eslint",
-    "html",
-    "css"
+    "full-stack"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/Deepanshu954/PortFolio"
   },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
+  "homepage": "https://github.com/Deepanshu954/PortFolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/Deepanshu954/PortFolio/issues",
+    "email": "deepanshu95488@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@react-three/drei": "^9.93.0",
@@ -83,6 +55,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.160.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
