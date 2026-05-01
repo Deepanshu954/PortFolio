@@ -45,7 +45,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-base sm:text-lg text-gray-400 my-3 sm:my-4 max-w-[500px] mx-auto md:mx-0"
         >
-          I&apos;m a Full Stack Software Engineer specializing in building modern web applications. Check out my projects and skills.
+          Hi, I&apos;m <span className="font-semibold text-gray-200">Deepanshu Chauhan</span>, a Full Stack Software Engineer specializing in building modern web applications, blockchain solutions, and data analysis systems. Check out my projects and skills!
         </motion.p>
 
         {/* Call-to-Action Button */}
