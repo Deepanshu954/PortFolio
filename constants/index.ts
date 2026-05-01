@@ -1,11 +1,15 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+
+type Skill = {
+  skill_name: string;
+  image: string;
+  width: number;
+  height: number;
+};
 
 export const SKILL_DATA = [
   {
@@ -81,7 +85,7 @@ export const SKILL_DATA = [
     width: 40,
     height: 40,
   },
-] as const;
+] satisfies Skill[];
 
 export const SOCIALS = [
   {
@@ -164,33 +168,44 @@ export const BACKEND_SKILL = [
   },
 
 
-] as const;
+] satisfies Skill[];
 
-export const FULLSTACK_SKILL = [
-] as const;
+export const FULLSTACK_SKILL: Skill[] = [];
 
-export const OTHER_SKILL = [
-
-] as const;
+export const OTHER_SKILL: Skill[] = [];
 
 export const PROJECTS = [
   {
-    title: "Mystic India",
-    
-    image: "/projects/project.png",
-    link: "https://mystic-india.netlify.app/",
+    id: "sentinel",
+    title: "Sentinel",
+    description:
+      "Infrastructure autoscaling pipeline with reactive monitoring, Grafana observability, and multi-phase traffic simulation.",
+    image: "/projects/sentinel.png",
+    link: "https://github.com/Deepanshu954/sentinel",
   },
   {
-    title: "Mystic India",
-    
-    image: "/projects/project.png",
-    link: "https://mystic-india.netlify.app/",
+    id: "community-detection",
+    title: "Community Detection Showcase",
+    description:
+      "Interactive Streamlit dashboard for social network analysis with Louvain, Label Propagation, and Greedy Modularity algorithms.",
+    image: "/projects/community_detection.png",
+    link: "https://github.com/Deepanshu954/community_detection_showcase",
   },
   {
-    title: "Mystic India",
-    
-    image: "/projects/project.png",
-    link: "https://mystic-india.netlify.app/",
+    id: "blockchain-apps",
+    title: "Blockchain Applications",
+    description:
+      "Decentralized applications built on blockchain technology exploring smart contracts and distributed ledger systems.",
+    image: "/projects/blockchain.png",
+    link: "https://github.com/Deepanshu954/Blockchain-Applications",
+  },
+  {
+    id: "job-prediction",
+    title: "Job Prediction",
+    description:
+      "Machine learning system for predicting job placements using classification models and feature engineering.",
+    image: "/projects/job_prediction.png",
+    link: "https://github.com/Deepanshu954/JobPrediction",
   },
 ] as const;
 
@@ -202,7 +217,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Deepanshu954",
       },
 
     ],
@@ -245,5 +260,3 @@ export const NAV_LINKS = [
     link: "#projects",
   },
 ] as const;
-
-

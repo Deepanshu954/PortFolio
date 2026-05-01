@@ -21,7 +21,7 @@ export const Footer = () => {
                   rel="noreferrer noopener"
                   className="flex flex-row items-center my-[15px]"
                 >
-                  {Icon && <Icon />}
+                  {Icon ? <Icon /> : null}
                   <span className="text-[15px] ml-[6px]">{name}</span>
                 </Link>
               ))}
@@ -30,7 +30,7 @@ export const Footer = () => {
         </div>
 
         <div className="mb-[20px] mt-[20px] text-[15px] text-center">
-          &copy; Deepanshu {new Date().getFullYear()} Inc. All rights reserved.
+          &copy; Deepanshu Chauhan {new Date().getFullYear()}. All rights reserved.
         </div>
       </div>
     </div>
